@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day Planner</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="jumbotron text-center">
+        <h1 class="display-3">Work Day Planner</h1>
+		<p class="lead">A simple scheduling app for your busy workday.</p>
+		<p id="currentDay" class="lead"></p>
+    </header>
+    
+    
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 9>9AM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50"id="9"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 10>10AM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50"  id="10"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 11>11AM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="11"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 12>12PM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="12"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 13>1PM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="1"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 14>2PM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="2"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 15>3PM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="3"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time =16 >4PM</div>
+            <textarea class="col-lg-10 side" rows="3" cols="50" id="4"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+        <div class="row">
+            <div class="col-lg-1 dot time-block" data-time= 17>5PM</div>
+            <textarea class="col-lg-10 side"rows="3" cols="50"  id="5"></textarea>
+            <button class="col-lg-1 save-btn">Save<i class="far fa-save"></i></button>
+        </div>
+    </div>
+​
+    <script src="https://code.jquery.com/jquery-3.5.0.min.js" integrity="sha256-xNzN2a4ltkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/moment@2.25.3/moment.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
