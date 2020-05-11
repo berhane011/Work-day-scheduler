@@ -1,4 +1,4 @@
-var currentDay = moment().format("dddd, MMMM Do YYYY H:mm:ss a");
+var currentDay = moment().format("dddd, MMMM Do YYYY h:mm:ss a");
 $("#currentDay").html(currentDay);
 
 var timeBlock = $(".time-block");
@@ -18,7 +18,7 @@ timeBlock.each(function () {
         presentColor.css('background-color', 'lightgreen');
     }
     else {
-        presentColor.css('background-color', 'lightred');
+        presentColor.css('background-color', 'lightcoral');
     }
 })
 
